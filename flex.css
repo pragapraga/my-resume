@@ -1,0 +1,44 @@
+h4{
+    background-color: #afafe3;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+td,th{
+    padding: 5px 30px;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* this class will be toggled */
+.dark-mode li ,.dark-mode body {
+    color: white;
+    background-color: black;
+  }
+.dark-mode table,.dark-mode  th,.dark-mode td{
+    border: 1px solid white;
+}
+
+.dark-mode h4 {
+color: white;
+background-color: grey;
+}
+
+.btn{
+    display: flex;
+    border-radius: 50%;
+}
